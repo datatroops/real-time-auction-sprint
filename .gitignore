@@ -1,0 +1,37 @@
+# Akka HTTP & SBT
+target/
+project/project/
+project/target/
+dist/
+tmp/
+logs/
+RUNNING_PID
+
+# Giter8 template cache
+/.g8
+
+# Build Server Protocol (BSP)
+/.bsp
+
+# IDE-specific files
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+
+# Metals & Bloop (for Scala development)
+/.bloop/
+/.metals/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# PostgreSQL dump files
+*.sql
+*.dump
+
+# Secrets
+.env
+*.conf
