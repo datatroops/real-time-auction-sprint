@@ -142,7 +142,7 @@ Running the Project
 1. Setup Database
 Ensure (pgAdmin) is running and update application.conf with database credentials.
 
-2. Run these sql scripts in pgAdmin
+2. Run these sql scripts in pgAdmin by creating the db directory on root and init-scripts.sql file inside that directory to make sure that required tables/schemas got created that are getting used by the project.
 
 CREATE EXTENSION IF NOT EXISTS hstore;
 
